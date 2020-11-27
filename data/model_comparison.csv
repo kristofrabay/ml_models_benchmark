@@ -1,0 +1,7 @@
+,MAE,MAPE,RMSE
+DummyRegressorMedian,2806.394,110.422,4258.833
+DummyRegressorQuantile,3105.765,60.473,4964.068
+LinearRegression,803.143,45.21,1143.74
+RidgeRegression,803.074,45.196,1143.75
+LassoRegression,803.126,45.207,1143.741
+ElasticNetRegression,803.09,45.2,1143.744
