@@ -2,15 +2,15 @@
 
 Comparing different ML models on two regression problems including numeric and categorical features as well
 
-Dataset 1: Predicting diamond prices by 6 input features - 3 categorical, 3 numerical
-  - X: (1) carat, (2) clarity, (3) color, (4) cut, (5) table and (6) depth
-  - y: diamond price
-  - download from: https://www.kaggle.com/shivam2503/diamonds
+1. Dataset 1: Predicting diamond prices by 6 input features - 3 categorical, 3 numerical
+    -  X: (1) carat, (2) clarity, (3) color, (4) cut, (5) table and (6) depth
+    - y: diamond price
+    - download from: https://www.kaggle.com/shivam2503/diamonds
 
-Dataset 2: Predicting laptop prices by 11 input features - 6 categorical, 5 numerical
-  - X: company, type,	inches,	cpu,	gpu,	op_sys,	touch_screen,	hd_category,	ram	memory_SSD,	memory_HDD,	weight
-  - y: laptop price
-  - download from: https://www.kaggle.com/ionaskel/laptop-prices
+2. Dataset 2: Predicting laptop prices by 11 input features - 6 categorical, 5 numerical
+    - X: company, type,	inches,	cpu,	gpu,	op_sys,	touch_screen,	hd_category,	ram	memory_SSD,	memory_HDD,	weight
+    - y: laptop price
+    - download from: https://www.kaggle.com/ionaskel/laptop-prices
   
 ML models tried out
   1. dummy regressors
