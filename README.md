@@ -25,7 +25,7 @@ Winners
 
 **Diamonds**: CatBoost by a small margin
 
-<img src="https://camo.githubusercontent.com/978ad57e1fba31f89403bdc139b9dbaffe70d32e88e31e4017897d902955dcad/687474703a2f2f73746f726167652e6d64732e79616e6465782e6e65742f6765742d646576746f6f6c732d6f70656e736f757263652f3235303835342f636174626f6f73742d6c6f676f2e706e67" width="750">
+<img src="https://camo.githubusercontent.com/978ad57e1fba31f89403bdc139b9dbaffe70d32e88e31e4017897d902955dcad/687474703a2f2f73746f726167652e6d64732e79616e6465782e6e65742f6765742d646576746f6f6c732d6f70656e736f757263652f3235303835342f636174626f6f73742d6c6f676f2e706e67" width="300">
 
 Came very close: LightGBM, simple gradient boosting machine, xgBoost and random forest
 
@@ -35,7 +35,7 @@ Overall scoreboard:
 
 **Laptops**: xgBoost by a small margin 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/69/XGBoost_logo.png" width="750">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/69/XGBoost_logo.png" width="300">
 
 
 Came very close: CatBoost, LightGBM
