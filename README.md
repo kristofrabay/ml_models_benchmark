@@ -35,7 +35,7 @@ Overall scoreboard:
 
 **Laptops**: xgBoost by a small margin 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/69/XGBoost_logo.png" width="300">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/69/XGBoost_logo.png" width="250">
 
 
 Came very close: CatBoost, LightGBM
