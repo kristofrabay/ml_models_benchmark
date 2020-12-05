@@ -1,0 +1,17 @@
+,Accuracy,F score,AUC,LogLoss
+DummyClassifierStratified,0.492,0.176,0.479,17.56
+DummyClassifierMostFrequent,0.882,0.0,0.5,4.063
+LogisticRegression,0.607,0.254,0.623,0.667
+RegularizedLogit,0.608,0.254,0.623,0.667
+KNN,0.602,0.252,0.622,0.666
+RadiusNN,0.627,0.241,0.58,4.438
+SVCLinear,0.611,0.243,0.615,0.676
+SVCPolynomial,0.847,0.22,0.62,0.67
+SVCRadialBasis,0.615,0.255,0.61,0.677
+DecisionTree,0.608,0.25,0.62,0.753
+RandomForest,0.604,0.252,0.633,0.659
+AdaBoost,0.652,0.258,0.632,0.69
+GradientBoosting,0.614,0.249,0.635,0.672
+xgBoost,0.602,0.25,0.634,0.656
+LightGBM,0.599,0.25,0.632,0.659
+CatBoost,0.589,0.241,0.631,0.676
