@@ -1,6 +1,6 @@
 # ml_models_benchmark
 
-Comparing different ML models on two regression problems including numeric and categorical features as well
+Comparing different ML models on two regression and two classification problems including numeric and categorical features as well
 
 1. Dataset 1: Predicting diamond prices by 6 input features - 3 categorical, 3 numerical
     -  X: (1) carat, (2) clarity, (3) color, (4) cut, (5) table and (6) depth
@@ -10,10 +10,15 @@ Comparing different ML models on two regression problems including numeric and c
 2. Dataset 2: Predicting laptop prices by 11 input features - 6 categorical, 5 numerical
     - X: company, type,	inches,	cpu,	gpu,	op_sys,	touch_screen,	hd_category,	ram	memory_SSD,	memory_HDD,	weight
     - y: laptop price
-    - download from: https://www.kaggle.com/ionaskel/laptop-prices
+    - download from: https://www.kaggle.com/ionaskel/laptop-prices    
+    
+3. Dataset 3: Classifying bank customers into ones who do subscribe to long term deposits and to ones who do not (6 feautures - 3 num, 3 cat)
+    - X: age, marital status, job status, education, has home loan, has personal loan
+    - y: classes 1 (subscriber) and 0 (non subscriber)
+    - download from: https://www.kaggle.com/raosuny/success-of-bank-telemarketing-data
   
 ML models tried out
-  1. dummy regressors
+  1. dummies
   2. neighbors (KNN, RNN)
   3. regressions (penalized and unregularized)
   4. support vector machines (linear, polynomial and radial basis)
@@ -30,6 +35,8 @@ Winners
     Came very close: LightGBM, simple gradient boosting machine, xgBoost and random forest
 
     Overall scoreboard:
+    
+    
     <img src="https://github.com/kristofrabay/ml_models_benchmark/blob/main/notebooks/diamonds/scoreboard.png" width="750">
 
 
@@ -41,4 +48,18 @@ Winners
     Came very close: CatBoost, LightGBM
 
     Overall scoreboard:
+    
+    
     <img src="https://github.com/kristofrabay/ml_models_benchmark/blob/main/notebooks/laptops/scoreboard.PNG" width="750">
+    
+    
+3. **Banks**: Simple Gradient Boosting Machine from sklearn API
+
+    <img src="https://miro.medium.com/max/439/1*TN3K15kcQUDYPsl8SM5DcA.png" width="200">
+
+    Came very close: xgBoost, Random Forest
+
+    Overall scoreboard:
+    
+    
+    <img src="https://github.com/kristofrabay/ml_models_benchmark/blob/main/notebooks/bank/scoreboard.PNG" width="750">
