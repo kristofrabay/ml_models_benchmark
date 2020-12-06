@@ -12,10 +12,16 @@ Comparing different ML models on two regression and two classification problems 
     - y: laptop price
     - download from: https://www.kaggle.com/ionaskel/laptop-prices    
     
-3. Dataset 3: Classifying bank customers into ones who do subscribe to long term deposits and to ones who do not (6 feautures - 3 num, 3 cat)
+3. Dataset 3: Classifying bank customers into ones who do subscribe to long term deposits and to ones who do not (6 features - 3 num, 3 cat)
     - X: age, marital status, job status, education, has home loan, has personal loan
     - y: classes 1 (subscriber) and 0 (non subscriber)
     - download from: https://www.kaggle.com/raosuny/success-of-bank-telemarketing-data
+    
+4. Dataset 4: Classifying airline passangers to satisified and dissatisfied ones (22 features - 1 categorical)
+    - X: age, flight class, flight type, delays, flight length, ratings on airline services, etc...
+    - y: classes 1 (satisfied) and 0 (dissatisfied)
+    - download from: https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction    
+    
   
 ML models tried out
   1. dummies
@@ -63,3 +69,7 @@ Winners
     
     
     <img src="https://github.com/kristofrabay/ml_models_benchmark/blob/main/notebooks/bank/scoreboard.PNG" width="750">
+    
+    
+    
+4. **Airlines**: TBD
