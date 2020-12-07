@@ -75,7 +75,7 @@ Winners
 4. **Airlines**: LightGBM
 
 
-    <img src="https://lightgbm.readthedocs.io/en/latest/_images/LightGBM_logo_black_text.svg" width="200">
+    <img src="https://lightgbm.readthedocs.io/en/latest/_images/LightGBM_logo_black_text.svg" width="250">
 
     Came very close: xgBoost, simple GBM, CatBoost
 
