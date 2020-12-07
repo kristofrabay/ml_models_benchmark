@@ -4,7 +4,7 @@ Comparing different ML models on two regression and two classification problems 
 
 ### Final scoreboard
 
-<img src="https://github.com/kristofrabay/ml_models_benchmark/blob/main/evaluation/final_scoreboard.PNG" width="300">
+<img src="https://github.com/kristofrabay/ml_models_benchmark/blob/main/evaluation/final_scoreboard.PNG" width="500">
 
 Top performers are all gradient boosted trees ensembles. Random forest is also a good option, simple decision tree and radial basis support vector machines are also good to benchmark against, but you can expect GBMs to outperform everything, and compete with each other about who comes out at the top. Running all 4 (simple sklearn API, xgBoost, LightGBM and CatBoost) is recommended as anyone can finish 1st. 
 
