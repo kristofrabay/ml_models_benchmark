@@ -68,8 +68,18 @@ Winners
     Overall scoreboard:
     
     
-    <img src="https://github.com/kristofrabay/ml_models_benchmark/blob/main/notebooks/bank/scoreboard.PNG" width="750">
+    <img src="https://github.com/kristofrabay/ml_models_benchmark/blob/main/notebooks/bank/scoreboard.PNG" width="650">
     
     
     
-4. **Airlines**: TBD
+4. **Airlines**: LightGBM
+
+
+    <img src="https://lightgbm.readthedocs.io/en/latest/_images/LightGBM_logo_black_text.svg" width="200">
+
+    Came very close: xgBoost, simple GBM, CatBoost
+
+    Overall scoreboard:
+    
+    
+    <img src="https://github.com/kristofrabay/ml_models_benchmark/blob/main/notebooks/airlines/scoreboard.PNG" width="750">
